@@ -21,21 +21,21 @@ function init(bundle, parent, options = {}) {
     0
   );
 
-  const infoPanel = new Surface(
-    400,
-    400,
-    Surface.SurfaceShape.Flat
-  );
+  // const infoPanel = new Surface(
+  //   400,
+  //   400,
+  //   Surface.SurfaceShape.Flat
+  // );
 
-  infoPanel.setAngle(
-    0.5,
-    0
-  );
+  // infoPanel.setAngle(
+  //   0.5,
+  //   0
+  // );
 
-  r360.renderToSurface(
-    r360.createRoot('HousePanel'),
-    infoPanel
-  );
+  // r360.renderToSurface(
+  //   r360.createRoot('HousePanel'),
+  //   infoPanel
+  // );
 
   r360.renderToSurface(
     r360.createRoot('SelectionPanel'),
