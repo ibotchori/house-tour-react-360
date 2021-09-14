@@ -15,7 +15,7 @@ export default data = {
       * Polished wood floors.
       * Entertaining and eating area for outside.
     `,
-    adjacentRooms: ['bathroom']
+    adjacentRooms: ['living_room']
   },
   private_room: {
     name: 'Private Room',
