@@ -34,14 +34,18 @@ const styles = StyleSheet.create({
     width: 200,
     backgroundColor: '#0073B7',
     borderColor: 'rgb(255,255,255)',
-    borderWidth: 5
+    borderWidth: 5,
+    borderRadius: 10,
+    marginTop: 5
   },
   button: {
     height: 60,
     width: 200,
-    backgroundColor: 'rgb(0,0,0)',
+    backgroundColor: 'rgb(0,50,100)',
     borderColor: 'rgb(255,255,255)',
     borderWidth: 5,
+    borderRadius: 10,
+    marginTop: 5
   },
   buttonText: {
     fontSize: 30,
